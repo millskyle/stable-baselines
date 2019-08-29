@@ -113,3 +113,26 @@ May be useful as an example of how to integrate Stable Baselines with `Ray <http
 | GitHub: https://github.com/HumanCompatibleAI/adversarial-policies
 | Paper: https://arxiv.org/abs/1905.10615
 | Website: https://adversarialpolicies.github.io
+
+WaveRL: Training RL agents to perform active damping
+----------------------------------------------------
+Reinforcement learning is used to train agents to control pistons attached to a bridge to cancel out vibrations.  The bridge is modeled as a one dimensional oscillating system and dynamics are simulated using a finite difference solver.  Agents were trained using Proximal Policy Optimization.  See presentation for environment detalis.
+
+| Authors: Jack Berkowitz
+| Email: jackberkowitz88@gmail.com
+| GitHub: https://github.com/jaberkow/WaveRL
+| Presentation: http://bit.ly/WaveRLslides
+
+Fenics-DRL: Fluid mechanics and Deep Reinforcement Learning
+-----------------------------------------------------------
+
+Deep Reinforcement Learning is used to control the position or the shape of obstacles in different fluids in order to optimize drag or lift. `Fenics <https://fenicsproject.org>`_ is used for the Fluid Mechanics part, and Stable Baselines is used for the DRL.
+
+
+| Authors: Paul Garnier, Jonathan Viquerat, Aurélien Larcher, Elie Hachem
+| Email: paul.garnier@mines-paristech.fr
+| GitHub: https://github.com/DonsetPG/openFluid
+| Paper: https://arxiv.org/abs/1908.04127
+| Website: https://donsetpg.github.io/blog/2019/08/06/DRL-FM-review/
+
+
